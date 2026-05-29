@@ -51,7 +51,7 @@ if analyze_button:
         
         # 위험 약물이 발견된 경우
         if len(risk_drugs) > 0:
-            st.error(f"⚠️ 경고: 선택하신 약품 중 **{len(risk_drugs)}개**의 약품에서 인지저하(DICI) 발생 위험 성분이 발견되었습니다.")
+            st.error(f"⚠️ 선택하신 약품 중 **{len(risk_drugs)}개**의 약품에서 인지저하(DICI) 발생 위험 성분이 발견되었습니다.")
             
             # 사각지대 강조 메트릭
             col1, col2 = st.columns(2)
