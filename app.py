@@ -47,7 +47,7 @@ if analyze_button:
         risk_drugs = result_df[result_df['DICI위험'] == True]
         
         st.divider()
-        st.write("### 분석 결과 리포트")
+        st.write("#### 분석 결과 리포트")
         
         # 위험 약물이 발견된 경우
         if len(risk_drugs) > 0:
