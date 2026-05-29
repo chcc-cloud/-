@@ -25,7 +25,7 @@ st.markdown("""
 st.divider()
 
 # --- [4] 사용자 입력 부분 ---
-st.write("#### 📝 현재 복용 중이거나 구매 예정인 약품을 모두 선택해주세요.")
+st.write("#### 현재 복용 중이거나 구매 예정인 약품을 모두 선택해주세요.")
 selected_drugs = st.multiselect(
     "약품 검색 및 선택 (다중 선택 가능)",
     options=mock_db['제품명'].tolist(),
@@ -47,7 +47,7 @@ if analyze_button:
         risk_drugs = result_df[result_df['DICI위험'] == True]
         
         st.divider()
-        st.write("### 📊 분석 결과 리포트")
+        st.write("### 분석 결과 리포트")
         
         # 위험 약물이 발견된 경우
         if len(risk_drugs) > 0:
