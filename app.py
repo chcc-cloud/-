@@ -79,5 +79,5 @@ with st.sidebar:
     st.write("### About CODA")
     st.write("CODA 시스템은 식약처 e약은요 데이터와 심평원 DUR 데이터를 연계하여 구축된 **사후 기반 위험 모니터링 프로토타입**입니다.")
     st.write("---")
-    st.write("**👨🔬 Team Rx**")
+    st.write("**Team Rx**")
     st.caption("숨겨진 위험, 사각지대, 미지의 문제를 드러내자")
