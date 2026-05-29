@@ -17,7 +17,7 @@ mock_db = pd.DataFrame({
 
 # --- [3] UI 헤더 부분 ---
 st.title("🚨 CODA (COgnitive Decline Alert)")
-st.subheader("고령층 일반의약품 인지저하 위험 및 DUR 사각지대 분석 시스템")
+st.subheader("고령층 일반의약품 DUR 사각지대 포착 시스템")
 st.markdown("""
 **Rx(redefine Reveal X)** 팀이 제안하는 약물 유발성 인지저하(DICI) 사전 모니터링 시스템입니다.  
 처방전 없이 구매한 일반의약품들을 입력하여, **현행 DUR 시스템이 잡아내지 못하는 인지저하 위험**을 확인해보세요.
